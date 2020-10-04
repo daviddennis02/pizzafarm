@@ -35,7 +35,7 @@ export default {
     return {
       slides: [
         {
-          text: "20% OFF ON ALL PIZZAS",
+          text: "20% OFF ON  ALL PIZZAS",
           bkg: slideBkg1,
           img: pizzaOne,
           alt: "background image",

@@ -82,7 +82,6 @@ export default {
           } else {
             this.success = "Already exist";
           }
-          //   console.log(response);
         });
       this.clearSuccess();
     },

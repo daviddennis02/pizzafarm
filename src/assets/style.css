@@ -1,6 +1,6 @@
 body {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -30,11 +30,11 @@ header {
 
 
 header .logo {
-    float:left;
+    float: left;
 }
 
 header .nav {
-    float:right;
+    float: right;
 }
 
 header .nav img {
@@ -72,7 +72,8 @@ footer .container {
 ==================================*/
 
 .slider_bck {
-    height: 850px;
+    /* height: 850px; */
+    height: 650px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
@@ -87,7 +88,8 @@ footer .container {
     font-size: 120px;
     line-height: 150px;
     width: 690px;
-    margin-top: 210px;
+    /* margin-top: 210px; */
+    margin-top: 120px;
 }
 
 .slider-container .image {
@@ -98,7 +100,8 @@ footer .container {
 
 .slider-container .image img {
     width: 410px;
-    margin-top: 244px;
+    /* margin-top: 244px; */
+    margin-top: 124px;
 }
 
 
@@ -138,25 +141,26 @@ footer .container {
     padding: 40px 0px 70px 0px;
 }
 
-.call_us_container  .first {
+.call_us_container .first {
     padding: 20px 0px;
 }
-.call_us_container  .first h1 {
+
+.call_us_container .first h1 {
     font-size: 80px;
     margin: 0px;
     line-height: 150px;
-    color:#fff;
+    color: #fff;
 }
 
-.call_us_container .second  {
-    height:200px;
+.call_us_container .second {
+    height: 200px;
 }
 
 .call_us_container .third {
     font-weight: 700;
     font-size: 60px;
     line-height: 150px;
-    color:#fff;
+    color: #fff;
 }
 
 .call_us_container .third span:first-child {
@@ -178,12 +182,14 @@ footer .container {
 .newsl_container .form {
     text-align: center;
 }
+
 .newsl_container .form input {
     font-size: 20px;
     box-sizing: border-box;
     padding: 10px;
     border: 1px solid #d7d7d7;
 }
+
 .newsl_container .form button {
     background: #c10929;
     color: #fff;
