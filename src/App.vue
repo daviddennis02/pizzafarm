@@ -5,6 +5,7 @@
       <SliderComponent />
       <MenuComponent />
       <CallUsComponent />
+      <Newsletter />
     </div>
     <FooterComponent />
   </div>
@@ -16,6 +17,7 @@ import FooterComponent from "./components/Header-Footer/FooterComponent.vue";
 import SliderComponent from "./components/Featured/SliderComponent.vue";
 import MenuComponent from "./components/Menu/MenuComponent.vue";
 import CallUsComponent from "./components/CallUs/CallUsComponent.vue";
+import Newsletter from "./components/Newsletter/NewsletterComponent.vue";
 export default {
   name: "App",
   components: {
@@ -23,7 +25,8 @@ export default {
     FooterComponent,
     SliderComponent,
     MenuComponent,
-    CallUsComponent
+    CallUsComponent,
+    Newsletter,
   },
   data() {
     return {};
