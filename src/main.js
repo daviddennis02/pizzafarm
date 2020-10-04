@@ -1,8 +1,29 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import VueResource from "vue-resource";
+import VueScrollReveal from "vue-scroll-reveal";
 
-Vue.config.productionTip = false
+import { MdButton, MdDrawer, MdCard } from "vue-material/dist/components";
+import "vue-material/dist/vue-material.min.css";
+import "vue-material/dist/theme/default.css";
+
+Vue.use(VueResource);
+Vue.use(VueScrollReveal, {
+  class: "v-scroll-reveal",
+  duration: 800,
+  scale: 1,
+  distance: "50px",
+  mobile: false,
+});
+
+Vue.use(MdButton);
+Vue.use(MdDrawer);
+Vue.use(MdCard);
+
+Vue.http.options.root = "https://pizzafarm-ade43.firebaseio.com/";
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");
