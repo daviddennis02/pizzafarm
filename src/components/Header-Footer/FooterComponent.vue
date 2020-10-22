@@ -6,6 +6,7 @@
         <div class="contact">
           <div>Call Us</div>
           <div>123-405-20</div>
+          <small>&copy; Copyright 2020</small>
         </div>
       </div>
     </div>
